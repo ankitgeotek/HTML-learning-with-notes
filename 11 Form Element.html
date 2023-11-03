@@ -1,0 +1,85 @@
+<!--
+    Tags in the Form
+        1. Input  and Label-
+                whenever in the form we need to take big textual data for this purpose input tag is not sufficient and
+                we use textarea tag, textarea tag can also we stretched by user
+
+
+
+        2. Text area
+        3. select-
+                To create drop down
+                size=2, at a time only two options will be visible in the dropdown
+                multiple=""i this will alow you to select multiple option at a time
+                optgroup- tag:
+
+        4. datalist
+        5. Field and Legend-
+                to club input in one group
+        
+
+-->
+
+
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <form action="">
+            <label for="">Bio</label><br>
+            <textarea name="" id="" cols="30" rows="10" rows="50" column="30"></textarea>
+
+            <select name="" id="" >
+
+                <optgroup>
+                    <option value="">First Year</option>
+                    <option value="">Second Year</option>
+                    <option value="">third Year</option>
+                    <option value="">four Year</option>
+                </optgroup>
+
+                <optgroup>
+                    <option value="">fifth Year</option>
+                    <option value="">six Year</option>
+                    <option value="">sevent Year</option>
+                    <option value="">eight Year</option>
+                </optgroup>
+            </select>
+            
+            <br>
+
+            <label for="">Smart Phones</label>
+            <input type="text" list="Phone">
+            <datalist id="Phone">
+                <option value="redMi">redMi</option>
+                <option value="OnePlus">OnePlus</option>
+                <option value="Apple">Apple</option>
+                <option value="Samsung">Samsung</option>
+
+            </datalist>
+
+            
+                <br>
+                <br>
+
+
+            <fieldset>
+                    <legend>Education info</legend>
+                    <label for="">12<sup>th</sup> Marks</label><br>
+                    <INPUT type="12 th Marks"></INPUT><br>
+                    <label for="">10<sup>th</sup> Marks</label><br>
+                    <INPUT type="10th Marks"></INPUT><br>
+            </fieldset>
+
+
+        </form>
+
+
+
+
+    </body>
+    </html>

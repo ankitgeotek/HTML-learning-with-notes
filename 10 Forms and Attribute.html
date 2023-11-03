@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Free web tutorial">
+    <meta name="keywords" content="HTML, CSS,  JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Document</title>
+</head>
+<body>
+   
+    <!--
+        Form Tags
+            Attribute-
+                1.a action-     put the name of the file on the sever(backend) which will handel the data from this form
+                1.b methode- post and get are the two methods
+                            post-data will not go through url and it will be hidden
+                            get- data go through url and it can be seen by user in the url tab
+                1.c autocomplete-suggest the input values
+                                by default it is on but we can off it
+                4- enctype- encodeing type
+                            by default it is utf-8
+                            but if you are asking user to upload the file in the  form then we use multipart/form-data
+        Input Tags
+            Atrribute-
+                1.a type=" "
+                1.b name=" "    -backend(i.e-server) will receive the data in the input from fronend by the use of name 
+                1.c Value=""    -Sticker in the frontend
+
+        Labels Tags
+            Attribute
+                    
+
+
+    -->
+    <form action="http://www.learnstack.in/validation.php" method="post" autocomplete="off" enctype="multipart/form-data">
+        <label for="email">Email: </label><br>
+        <input type="email" name="email" ><br>
+        <label for="">Password:</label><br>
+        <input type="password" name="password" ><br>
+
+        <input type="Submit" name="" value="Login">
+    </form>
+
+
+
+
+</body>
+</html>
